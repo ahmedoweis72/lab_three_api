@@ -1,0 +1,15 @@
+meta {
+  name: Delete a user
+  type: http
+  seq: 5
+}
+
+delete {
+  url: http://127.0.0.1:3000/users/:id
+  body: none
+  auth: inherit
+}
+
+params:path {
+  id: 
+}

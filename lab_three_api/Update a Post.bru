@@ -1,0 +1,15 @@
+meta {
+  name: Update a Post
+  type: http
+  seq: 7
+}
+
+put {
+  url: http://127.0.0.1:3000/posts/:id
+  body: none
+  auth: inherit
+}
+
+params:path {
+  id: 
+}
