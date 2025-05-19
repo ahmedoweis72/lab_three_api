@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "lab_three_api",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}
